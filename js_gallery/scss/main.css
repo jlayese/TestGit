@@ -1,0 +1,66 @@
+body p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body .wrapper-gallery {
+  margin: 0 20vh;
+}
+
+body .wrapper-main {
+  position: fixed;
+  margin: 0 20vh;
+  width: calc( 100% - 40vh);
+  top: 0;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 1000;
+}
+
+body .wrapper-main .site-logo {
+  width: 80px;
+  height: 100%;
+  margin-right: auto;
+  background-image: url("../img/cath.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  cursor: pointer;
+}
+
+body .wrapper-main > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 15px;
+}
+
+body .wrapper-main > ul > li {
+  list-style: none;
+  line-height: 60px;
+}
+
+body .wrapper-main > ul > li > a {
+  display: block;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+/*# sourceMappingURL=main.css.map */
